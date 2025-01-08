@@ -67,6 +67,31 @@ get_digit_config() {
                  R,_,_,_,R
                  _,R,R,R,_"
         ;;         
+        D) echo "_,R,R,R,_
+                 R,_,_,_,R
+                 R,_,_,_,R
+                 R,R,R,R,R"
+        ;;
+        E) echo "R,_,_,_,R
+                 R,_,R,_,R
+                 R,_,R,_,R
+                 R,R,R,R,R"
+        ;;
+        F) echo "R,_,_,_,_
+                 R,_,R,_,_
+                 R,_,R,_,_
+                 R,R,R,R,R"
+        ;;
+        G) echo "_,R,_,R,R
+                 R,_,_,_,R
+                 R,_,_,_,R
+                 _,R,R,R,R"
+        ;;
+        H) echo "R,R,R,R,R
+                 _,_,R,_,_
+                 _,_,R,_,_
+                 R,R,R,R,R"
+        ;;
         -) echo "_,_,_,_,_
                  _,_,_,_,_
                  _,_,_,_,_
